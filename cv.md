@@ -12,11 +12,7 @@
 
 ## Skills
 
-
-
-## Code Examples
-
-
+Basic knowledge of HTML, CSS, JavaScript, React, Git.
 
 ## Experience 
 
