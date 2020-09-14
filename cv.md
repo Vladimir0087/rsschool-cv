@@ -12,7 +12,7 @@
 
 ## Skills
 
-Basic knowledge of HTML, CSS, JavaScript, React, Git.
+* Basic knowledge of HTML, CSS, JavaScript, React, Git.
 
 ## Experience 
 
