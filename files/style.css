@@ -21,7 +21,6 @@ h2 {
 body {
   max-width: 1024px;
   margin: 40px auto;
-  border-radius: 10px;
 }
 
 .wrapper {
@@ -35,13 +34,13 @@ body {
 }
 
 img {
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
   padding: 10px 0 0 25px;
 }
 
 ul {
-  margin: 10px;
+  margin: 5px;
 }
 
 main {
@@ -55,8 +54,23 @@ section {
   border-radius: 10px;
 }
 
-@media (max-width: 780px) {
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 860px) {
   main {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    margin: 0 auto;
   }
 }
